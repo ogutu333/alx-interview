@@ -1,39 +1,40 @@
-Curriculum <br>
-**Short Specializations** <br>
+# :book: Interview Questions.
+## Topics Covered.
+1. Python List, List Comprehession.
 
-# 0x00. Pascal's Triangle
+## :wrench: Project setup
+```bash
+# Create project directory.
+mkdir ./alx-interview
+cd ./alx-interview
 
-`Algorithm` `Python` `Encapsulation`
+# Create new repo.
+git init
 
-#### Concepts
+# Install python linter.
+pip install pycodestyle==2.8.0
+pip install pep8==1.7.0
+```
 
-_For this project, look at these concepts:_
+# :computer: Projects.
+## [0x00. Pascal's Triangle](0x00-pascal_triangle)
+Pascal triangle interview question.
 
-* [Technical Interview](https://www.alx-intranet.hbtn.io/concepts/100005)
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x00-pascal_triangle
+touch ./0x00-pascal_triangle/README.md
+cd ./0x00-pascal_triangle
+```
 
-## General Requirements
+## [0x01 lockboxes](0x01-lockboxes)
+Lockboxes interview question.
 
-* Allowed editors: `vi`, `vim`, `emacs`
-* Files interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)
-* Files first line exactly shebang `#!/usr/bin/python3`
-* `README.md` file mandatory
-* Code documented and using `PEP 8` style (version 1.7.x)
-* Files executable
-
-## General Learning & Setu
-
-`python.py`
-<details>
-  <summary>Click to show/hide file contents</summary>
-
-  ```python
-  import sys, argv
-  if __name__ == "__main__":
-
-  class ClassAct:
-  	pass
-
-  def fn():
-      pass
-  ```
-</details>
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x01-lockboxes
+touch ./0x01-lockboxes/README.md
+cd ./0x01-lockboxes
+```
